@@ -1784,10 +1784,25 @@ possible.
 Defaults
 
 *********************/
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.875; }
+
 html, body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+/*********************
+
+Typography
+
+*********************/
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+  font-weight: 400; }
 
 /******************************************************************
 LARGER MOBILE DEVICES
